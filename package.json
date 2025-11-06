@@ -1,0 +1,20 @@
+{
+  "name": "pet-shop-api-crud-orm-desafio",
+  "version": "1.0.0",
+  "description": "API de pet shop Desafio relações 1 pra N e N pra 1 com sequelize do curso Jovem Programador 2025",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/index.js",
+    "test": "cross-env TEST=true node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crossenv": "^0.0.2-security",
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "mysql2": "^3.15.3",
+    "sequelize": "^6.37.7"
+  }
+}
